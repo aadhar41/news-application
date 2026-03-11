@@ -6,12 +6,7 @@ import HomePage from './pages/HomePage';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route path='/home' element={<HomePage />} />
-
-        </Routes>
-      </BrowserRouter>
+      <h1>NewsApplication</h1>
     </div>
   );
 }
